@@ -1,0 +1,23 @@
+.isg_circle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.isg_square {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.isg_triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+}
